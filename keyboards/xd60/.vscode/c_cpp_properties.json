@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "main",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/../../quantum",
+                "${workspaceFolder}/../../quantum/audio",
+                "${workspaceFolder}/../../quantum/process_keycode",
+                "${workspaceFolder}/../../tmk_core/common",
+                "${workspaceFolder}/../../drivers",
+                "${workspaceFolder}/../../users/zhiayang",
+                "${workspaceFolder}/../..",
+                "${workspaceFolder}/../../drivers/avr"
+            ],
+            "defines": [
+            ],
+            "cStandard": "c11",
+            "compilerPath": "/usr/bin/avr-gcc",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,22 @@
+{
+  "files.exclude": {
+    "keymaps\\birkir": true,
+    "keymaps\\cheese": true,
+    "keymaps\\crd_ansi": true,
+    "keymaps\\default": true,
+    "keymaps\\edulpn": true,
+    "keymaps\\edulpn64": true,
+    "keymaps\\iso": true,
+    "keymaps\\Jos": true,
+    "keymaps\\kmontag42": true,
+    "keymaps\\krusli": true,
+    "keymaps\\petesmom": true,
+    "keymaps\\rooski": true,
+    "keymaps\\split_bksp_arrows": true,
+    "keymaps\\stanleylai": true,
+    "keymaps\\styr": true,
+    "keymaps\\supercoffee": true,
+    "keymaps\\yuuki": true,
+    "rev3": true
+  }
+}

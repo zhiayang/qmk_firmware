@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "keyboards\\xd60"
+		},
+		{
+			"path": "keyboards\\keebio\\iris"
+		},
+		{
+			"path": "users\\zhiayang"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.sty": "latex",
+			"*.s": "gas",
+			"zhiayang.h": "c",
+			"rgblight.h": "c"
+		}
+	}
+}
