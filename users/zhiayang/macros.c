@@ -27,7 +27,8 @@ bool process_record_macro(uint16_t keycode, bool is_pressed)
 
 		// and again
 		case KC_A ... KC_Z: {
-			if(kbst()->macro_mode == CYCLE_CASE_MACRO)
+			// only do stuff it there's no modifiers!
+			if(kbst()->macro_mode == CYCLE_CASE_MACRO && get_mods() == 0)
 			{
 				if(is_pressed)
 				{
@@ -45,6 +46,14 @@ bool process_record_macro(uint16_t keycode, bool is_pressed)
 			}
 		}
 
+		// this is getting more and more contrived...
+		case KC_BSPACE: {
+			if(kbst()->macro_mode == CYCLE_CASE_MACRO && is_pressed)
+				kbst()->macro_data = !kbst()->macro_data;
+
+			return true;
+		}
+
 		case KC_TAB:
 		case KC_SPACE:
 		case KC_RETURN: {
@@ -57,8 +66,6 @@ bool process_record_macro(uint16_t keycode, bool is_pressed)
 
 	return true;
 }
-
-
 
 
 
