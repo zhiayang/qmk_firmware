@@ -7,6 +7,7 @@
 
 #include "rgblight.h"
 
+#include <string.h>
 #include "zhiayang.h"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -27,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 	LAYOUT_all(
 		_____,        KC_F1,   KC_F2,   KC_F3,   KC_F4, KC_F5, KC_F6,  KC_F7, KC_F8,   KC_F9, KC_F10, KC_F11,  KC_F12,    _____,   NOKEY,
-		_____,        KC_BSPC, KC_UP,   KC_BSPC, __X__, __X__, __X__,  __X__, __X__,   __X__, __X__,  __X__,   __X__,     KC_GRAVE,
+		_____,        KC_BSPC, KC_UP,   __X__,   __X__, __X__, __X__,  __X__, __X__,   __X__, __X__,  __X__,   __X__,     KC_GRAVE,
 		_____,        KC_LEFT, KC_DOWN, KC_RGHT, __X__, __X__, __X__,  __X__, KC_BSPC, __X__, __X__,  __X__,   __X__,     __X__,
 		_____, NOKEY, __X__,   __X__,   __X__,   __X__, __X__, __X__,  __X__, __X__,   __X__, __X__,  _____,   KC_PGUP,   __X__,
 		_____,        _____,   _____,                   KC_SPC,                        _____, _____,  KC_HOME, KC_PGDOWN, KC_END),
